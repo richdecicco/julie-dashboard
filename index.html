@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Still Rising · Live Progress</title>
+<script>
+const DATA = {
+  "updated": "Nov 9, 2026",
+  "intro": "Everything I'm building for you and Bridge and Bone, in one place, updated as things ship. Check back anytime.",
+  "book": {
+    "name": "Girl, Peach",
+    "phase": "Phase 1 · Building your audience · manuscript in my hands",
+    "items": [
+      {
+        "label": "Long-form video sessions recorded (five so far)",
+        "status": "live"
+      },
+      {
+        "label": "Your personal brand doc: complete",
+        "status": "live"
+      },
+      {
+        "label": "Little Hinges: 50 readers, a new story every Thursday at 7am",
+        "status": "live",
+        "link": "https://littlehingesjulie.substack.com"
+      },
+      {
+        "label": "Founding 60 invites: all 60 sent",
+        "status": "live"
+      },
+      {
+        "label": "Your website, with your photo: juliecrotty.com",
+        "status": "live",
+        "link": "https://juliecrotty.com"
+      },
+      {
+        "label": "Short videos: four posted on Instagram, Facebook, and TikTok",
+        "status": "live"
+      },
+      {
+        "label": "Author Instagram: @juliecrottywrites",
+        "status": "live",
+        "link": "https://www.instagram.com/juliecrottywrites"
+      },
+      {
+        "label": "Author Facebook Page, with banner",
+        "status": "live",
+        "link": "https://www.facebook.com/profile.php?id=61595798860023"
+      },
+      {
+        "label": "TikTok: @julie.crotty",
+        "status": "live",
+        "link": "https://www.tiktok.com/@julie.crotty"
+      },
+      {
+        "label": "50 Substack writers to connect with: ready",
+        "status": "live",
+        "link": "https://docs.google.com/document/d/1axBS21dw-ZOpNcQ7OTMQ1JAXFLg8cAE-btNdLoNavQU/edit?usp=sharing"
+      },
+      {
+        "label": "Your manuscript edits: done",
+        "status": "live"
+      },
+      {
+        "label": "Nov 12 story \"There's the Phone\": approved",
+        "status": "live"
+      },
+      {
+        "label": "YouTube channel: one quick setup step Wed, Nov 11",
+        "status": "wip"
+      },
+      {
+        "label": "My read of the manuscript, plus Story Bible + Voice Standard",
+        "status": "next"
+      },
+      {
+        "label": "Nov 19 post: Thanksgiving Table Questions",
+        "status": "next"
+      },
+      {
+        "label": "Copy editor lined up",
+        "status": "next"
+      },
+      {
+        "label": "Recognition runway (reviews / awards / podcasts)",
+        "status": "next"
+      }
+    ]
+  },
+  "song": {
+    "name": "Still We Rise",
+    "phase": "Out now on every streaming app · video live since Oct 27",
+    "items": [
+      {
+        "label": "Treatment shared with Bridge and Bone",
+        "status": "live"
+      },
+      {
+        "label": "Performer clips gathered",
+        "status": "live"
+      },
+      {
+        "label": "Imagery sourced and logged",
+        "status": "live"
+      },
+      {
+        "label": "Music video: cut, notes, and picture lock",
+        "status": "live"
+      },
+      {
+        "label": "Final master delivered",
+        "status": "live"
+      },
+      {
+        "label": "Video uploaded to YouTube with credits + lyrics",
+        "status": "live"
+      },
+      {
+        "label": "Bridge and Bone socials built",
+        "status": "live"
+      },
+      {
+        "label": "Landing page live on bridgeandbone.com",
+        "status": "live",
+        "link": "https://bridgeandbone.com"
+      },
+      {
+        "label": "Fan sign-up + early song download on the site",
+        "status": "live"
+      },
+      {
+        "label": "Video public on YouTube: Tue, Oct 27",
+        "status": "live",
+        "link": "https://www.youtube.com/@bridgeandbone"
+      },
+      {
+        "label": "YouTube ads (paid): 19,000+ views in week one, about 2 minutes watched on average",
+        "status": "live"
+      },
+      {
+        "label": "Streaming release: out Fri, Nov 6, everywhere",
+        "status": "live"
+      },
+      {
+        "label": "Release-day posts and Instagram Reels with the song",
+        "status": "live"
+      },
+      {
+        "label": "Playlist pitching",
+        "status": "wip"
+      },
+      {
+        "label": "Release kit + catalog plan for the next Bridge and Bone songs",
+        "status": "next"
+      }
+    ]
+  },
+  "shipped": [
+    "Engagement signed & kicked off",
+    "Full plan + treatment built and shared",
+    "Project set up: folders, schedule, roles",
+    "Still We Rise footage gathered and rights-logged",
+    "Five long-form video sessions with you recorded",
+    "Launch plan + ad budget approved",
+    "Social posting guide for sharing Bridge and Bone posts",
+    "Bridge and Bone socials set up (Instagram, TikTok, YouTube, Facebook)",
+    "Still We Rise landing page live on bridgeandbone.com",
+    "Music video locked and uploaded to YouTube with full credits and lyrics",
+    "YouTube ad campaign built and targeted to listeners in our lane",
+    "Fan sign-up live: new fans get the song early as a download",
+    "Video public: 19,000+ views in its first week",
+    "Your personal brand doc completed",
+    "Little Hinges branded: logo, colors, welcome email, and About page",
+    "Your website live at juliecrotty.com",
+    "Your photo and self-updating posts on your website",
+    "Author Instagram set up: @juliecrottywrites",
+    "hello@juliecrotty.com set up for your accounts",
+    "Little Hinges growth plan built and walked through together",
+    "Little Hinges: four posts and 50 readers so far",
+    "All 60 Founding 60 invites sent (that was all you)",
+    "Still We Rise out on Spotify, Apple Music, and everywhere",
+    "Release-day posts and Instagram Reels for Still We Rise",
+    "First four short videos posted on Instagram, Facebook, and TikTok",
+    "Author Facebook Page and TikTok set up",
+    "YouTube channel created",
+    "Your manuscript edits finished, ahead of schedule",
+    "Nov 12 story recorded and approved",
+    "50 Substack writers to connect with, ready for your 15 minutes a day"
+  ],
+  "links": [
+    {
+      "group": "Girl, Peach",
+      "items": [
+        {
+          "label": "50 Substack writers",
+          "note": "Who to read, comment on, and collab with in your 15 minutes a day",
+          "url": "https://docs.google.com/document/d/1axBS21dw-ZOpNcQ7OTMQ1JAXFLg8cAE-btNdLoNavQU/edit?usp=sharing"
+        },
+        {
+          "label": "Website",
+          "note": "juliecrotty.com",
+          "url": "https://juliecrotty.com"
+        },
+        {
+          "label": "Little Hinges",
+          "note": "Your Substack",
+          "url": "https://littlehingesjulie.substack.com"
+        },
+        {
+          "label": "Instagram",
+          "note": "@juliecrottywrites",
+          "url": "https://www.instagram.com/juliecrottywrites"
+        },
+        {
+          "label": "Facebook",
+          "note": "Your author Page",
+          "url": "https://www.facebook.com/profile.php?id=61595798860023"
+        },
+        {
+          "label": "TikTok",
+          "note": "@julie.crotty",
+          "url": "https://www.tiktok.com/@julie.crotty"
+        }
+      ]
+    },
+    {
+      "group": "Bridge and Bone",
+      "items": [
+        {
+          "label": "Posting guide",
+          "note": "How to share Bridge and Bone posts, plus promo for when the video drops",
+          "url": "https://docs.google.com/document/d/1csTmOjS3TN4Z9G6c1gRcwXnl3mTvYpD_nEce2rww0rU/edit?usp=sharing"
+        },
+        {
+          "label": "Website",
+          "note": "The Still We Rise landing page",
+          "url": "https://bridgeandbone.com"
+        },
+        {
+          "label": "SWR mp3 email signup",
+          "note": "Share this: people join our email list and get the song early as an mp3",
+          "url": "https://bridgeandbone.com/#hear"
+        },
+        {
+          "label": "YouTube",
+          "note": "@bridgeandbone",
+          "url": "https://www.youtube.com/@bridgeandbone"
+        },
+        {
+          "label": "Instagram",
+          "note": "@bridgeandbone",
+          "url": "https://www.instagram.com/bridgeandbone"
+        },
+        {
+          "label": "TikTok",
+          "note": "@bridgeandbone",
+          "url": "https://www.tiktok.com/@bridgeandbone"
+        },
+        {
+          "label": "Facebook",
+          "note": "Bridge and Bone page",
+          "url": "https://www.facebook.com/bridgeandbone"
+        }
+      ]
+    }
+  ],
+  "thisWeek": "Book: Little Hinges just passed 50 readers, and all 60 of your Founding 60 invites went out. Four short videos are live on Instagram, Facebook, and TikTok, and your list of 50 Substack writers is ready (top of this page). This is your week off, so rest. I'm reading the manuscript. Song: Still We Rise is out on every streaming app as of Friday, Nov 6.",
+  "next": "Book: \"There's the Phone\" goes out Thursday, Nov 12, and the Thanksgiving post on Nov 19. A quick YouTube step on Wednesday gets your short videos onto YouTube too. After your week off, we set a date to go over my manuscript notes and the Story Bible. Song: playlist pitching for Still We Rise continues, and the plan for the next Bridge and Bone songs."
+};
+</script>
+<style>
+  :root{
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+    --bg:#fbf8f5; --card:#ffffff; --ink:#1f1f1f; --soft:#6a6a6a; --line:#ece3dc;
+    --accent:#c97b5a; --accentsoft:#f7efea;
+    --live:#3a8f5f; --wip:#d98a2b; --next:#b9b2ab;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --bg:#17140f; --card:#211d18; --ink:#f1ece6; --soft:#a69c92; --line:#332c24;
+    --accentsoft:#2a2019;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#17140f; --card:#211d18; --ink:#f1ece6; --soft:#a69c92; --line:#332c24; --accentsoft:#2a2019;
+  }
+  *{box-sizing:inherit; margin:0; padding:0;}
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+    max-width:720px; margin:0 auto; padding:24px 18px 48px;
+  }
+  header{margin-bottom:22px;}
+  .kicker{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  h1{font-size:26px; font-weight:800; letter-spacing:-.01em; margin:4px 0 8px;}
+  .intro{color:var(--soft); font-size:15px; max-width:52ch;}
+  .updated{display:inline-block; margin-top:10px; font-size:12.5px; color:var(--soft); background:var(--accentsoft); padding:4px 10px; border-radius:999px;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 18px 14px; margin:14px 0;}
+  .ctitle{display:flex; align-items:baseline; justify-content:space-between; gap:8px; flex-wrap:wrap;}
+  .ctitle h2{font-size:19px; font-weight:800; letter-spacing:-.01em;}
+  .phase{font-size:12.5px; color:var(--soft);}
+  .bar{height:6px; border-radius:999px; background:var(--line); margin:12px 0 14px; overflow:hidden;}
+  .bar > span{display:block; height:100%; background:var(--accent); border-radius:999px;}
+  ul{list-style:none;}
+  li{display:flex; align-items:center; gap:10px; padding:7px 0; font-size:15px; border-top:1px solid var(--line);}
+  li:first-child{border-top:none;}
+  .dot{width:9px; height:9px; border-radius:50%; flex:0 0 auto;}
+  .dot.live{background:var(--live);} .dot.wip{background:var(--wip);} .dot.next{background:var(--next);}
+  .tag{margin-left:auto; font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase;}
+  .tag.live{color:var(--live);} .tag.wip{color:var(--wip);} .tag.next{color:var(--next);}
+  .done{opacity:.62;}
+  li a{color:var(--accent); font-weight:600; text-decoration:underline; text-underline-offset:3px;}
+  li.done a{opacity:1;}
+  .shipped li{border-top:none; padding:5px 0; color:var(--ink);}
+  .shipped .check{color:var(--live); font-weight:800;}
+  .mini{display:grid; grid-template-columns:1fr; gap:12px; margin-top:14px;}
+  @media(min-width:560px){ .mini{grid-template-columns:1fr 1fr;} }
+  .mini .card{margin:0;}
+  .mini h3{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin-bottom:6px;}
+  .mini p{font-size:14.5px; color:var(--ink);}
+  .links{padding:12px 14px;}
+  .lhead{font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:700; margin-bottom:8px;}
+  .lrow{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:6px;}
+  .lrow:first-child{margin-top:0;}
+  .lgroup{font-size:12.5px; font-weight:700; color:var(--soft); margin-right:2px;}
+  .chip{display:inline-block; font-size:13px; font-weight:600; color:var(--ink); text-decoration:none; background:var(--accentsoft); border:1px solid var(--line); border-radius:999px; padding:4px 10px; line-height:1.3;}
+  .chip:hover,.chip:focus{border-color:var(--accent); color:var(--accent);}
+  footer{margin-top:26px; text-align:center; color:var(--soft); font-size:13px;}
+  .legend{display:flex; gap:16px; justify-content:center; margin-top:14px; font-size:12px; color:var(--soft); flex-wrap:wrap;}
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Live Progress</div>
+  <h1 id="title">Still Rising</h1>
+  <p class="intro" id="intro"></p>
+  <span class="updated" id="updated"></span>
+</header>
+
+<div class="card links" id="linksCard">
+  <h3 class="lhead">Docs &amp; links you might need later</h3>
+  <div id="links"></div>
+</div>
+
+<div id="tracks"></div>
+
+<div class="card">
+  <div class="ctitle"><h2>Shipped so far</h2></div>
+  <ul class="shipped" id="shipped"></ul>
+</div>
+
+<div class="mini">
+  <div class="card"><h3>This week</h3><p id="thisWeek"></p></div>
+  <div class="card"><h3>Next</h3><p id="next"></p></div>
+</div>
+
+<div class="legend">
+  <span><i class="dot live"></i> Live</span>
+  <span><i class="dot wip"></i> In progress</span>
+  <span><i class="dot next"></i> Coming up</span>
+</div>
+
+<footer id="footer"></footer>
+
+<script>
+  const L = {live:"Live", wip:"In progress", next:"Next"};
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const lbl = i => i.link ? `<a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.label)} \u2197</a>` : esc(i.label);
+  function pct(items){ const w={live:1,wip:.4,next:0}; const t=items.reduce((a,i)=>a+(w[i.status]||0),0); return Math.round(100*t/items.length); }
+  function track(t){
+    const p = pct(t.items);
+    const rows = t.items.map(i =>
+      `<li class="${i.status==='live'?'done':''}"><i class="dot ${i.status}"></i>${lbl(i)}<span class="tag ${i.status}">${L[i.status]}</span></li>`
+    ).join("");
+    return `<div class="card">
+      <div class="ctitle"><h2>${esc(t.name)}</h2><span class="phase">${esc(t.phase)}</span></div>
+      <div class="bar"><span style="width:${p}%"></span></div>
+      <ul>${rows}</ul>
+    </div>`;
+  }
+  try{
+    if(typeof DATA==="undefined") throw new Error("data.js missing");
+    document.getElementById('intro').textContent = DATA.intro;
+    document.getElementById('updated').textContent = "Updated " + DATA.updated;
+    document.getElementById('tracks').innerHTML = track(DATA.song) + track(DATA.book);
+    document.getElementById('shipped').innerHTML = DATA.shipped.map(s=>`<li><span class="check">\u2713</span> ${esc(s)}</li>`).join("");
+    const groups = DATA.links || [];
+    if(groups.length){
+      document.getElementById('links').innerHTML = groups.map(g =>
+        `<div class="lrow"><span class="lgroup">${esc(g.group)}:</span>` + g.items.map(l =>
+          `<a class="chip" href="${esc(l.url)}" target="_blank" rel="noopener"${l.note?` title="${esc(l.note)}"`:''}>${esc(l.label)} \u2197</a>`
+        ).join('') + `</div>`
+      ).join('');
+    } else { document.getElementById('linksCard').style.display='none'; }
+    document.getElementById('thisWeek').textContent = DATA.thisWeek;
+    document.getElementById('next').textContent = DATA.next;
+    document.getElementById('footer').innerHTML = "Your growth director, Richie \u00b7 this stays current. Check back anytime.";
+  }catch(e){ document.body.innerHTML = "<p style='padding:24px'>Dashboard loading issue. Ping Richie.</p>"; }
+</script>
+</body>
+</html>

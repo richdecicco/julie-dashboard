@@ -1,35 +1,39 @@
 {
-  "updated": "Nov 9, 2026",
+  "updated": "Nov 18, 2026",
   "intro": "Everything I'm building for you and Bridge and Bone, in one place, updated as things ship. Check back anytime.",
   "book": {
     "name": "Girl, Peach",
-    "phase": "Phase 1 · Building your audience · manuscript in my hands",
+    "phase": "Phase 1 · Building your audience · launch Mon, Feb 23, 2027",
     "items": [
       {
-        "label": "Long-form video sessions recorded (five so far)",
+        "label": "Book timeline agreed: launch Mon, Feb 23, 2027",
         "status": "live"
       },
       {
-        "label": "Your personal brand doc: complete",
-        "status": "live"
-      },
-      {
-        "label": "Little Hinges: 50 readers, a new story every Thursday at 7am",
+        "label": "Little Hinges: 63 readers, 77% open rate, a new story every Thursday at 7am ET",
         "status": "live",
         "link": "https://littlehingesjulie.substack.com"
       },
       {
-        "label": "Founding 60 invites: all 60 sent",
+        "label": "Nov 12 story \"There's the Phone\": published",
+        "status": "live"
+      },
+      {
+        "label": "Thanksgiving story recorded (Nov 18)",
+        "status": "live"
+      },
+      {
+        "label": "Daily posts on Instagram, Facebook, and TikTok: scheduled through Dec 9, about 3,700 views so far (organic)",
+        "status": "live"
+      },
+      {
+        "label": "LinkedIn connected for posting",
         "status": "live"
       },
       {
         "label": "Your website, with your photo: juliecrotty.com",
         "status": "live",
         "link": "https://juliecrotty.com"
-      },
-      {
-        "label": "Short videos: four posted on Instagram, Facebook, and TikTok",
-        "status": "live"
       },
       {
         "label": "Author Instagram: @juliecrottywrites",
@@ -52,38 +56,66 @@
         "link": "https://docs.google.com/document/d/1axBS21dw-ZOpNcQ7OTMQ1JAXFLg8cAE-btNdLoNavQU/edit?usp=sharing"
       },
       {
-        "label": "Your manuscript edits: done",
+        "label": "My read of the manuscript: done",
         "status": "live"
       },
       {
-        "label": "Nov 12 story \"There's the Phone\": approved",
+        "label": "Podcast pitch kit built from your Oprah pitch",
         "status": "live"
       },
       {
-        "label": "YouTube channel: one quick setup step Wed, Nov 11",
+        "label": "Nov 19 post + Thanksgiving Table printable for subscribers: draft with you",
         "status": "wip"
       },
       {
-        "label": "My read of the manuscript, plus Story Bible + Voice Standard",
+        "label": "The Plan to Finish the Book: coming to you as a Google Doc",
+        "status": "wip"
+      },
+      {
+        "label": "Story Bible + Voice Standard: first draft done, on our Nov 23 call",
+        "status": "wip"
+      },
+      {
+        "label": "Notes on 30 Substack writers, ready for you by Nov 22",
+        "status": "wip"
+      },
+      {
+        "label": "YouTube channel: moving to a Brand Account so I can help manage it",
+        "status": "wip"
+      },
+      {
+        "label": "Your Meta ad account: in setup",
+        "status": "wip"
+      },
+      {
+        "label": "Cover designer: reaching out now, hired by Nov 24",
+        "status": "wip"
+      },
+      {
+        "label": "Our 90-minute interview: Fri, Nov 20",
         "status": "next"
       },
       {
-        "label": "Nov 19 post: Thanksgiving Table Questions",
+        "label": "Small Meta ad test (paid): starts once your ad account is ready",
         "status": "next"
       },
       {
-        "label": "Copy editor lined up",
+        "label": "Copy editor booked by Nov 27",
         "status": "next"
       },
       {
-        "label": "Recognition runway (reviews / awards / podcasts)",
+        "label": "Podcast pitching: about 30 shows, starting week of Nov 30",
+        "status": "next"
+      },
+      {
+        "label": "Your own book store, in your name: built week of Jan 4",
         "status": "next"
       }
     ]
   },
   "song": {
     "name": "Still We Rise",
-    "phase": "Out now on every streaming app · video live since Oct 27",
+    "phase": "Out now on every streaming app · next single in the works",
     "items": [
       {
         "label": "Treatment shared with Bridge and Bone",
@@ -140,11 +172,15 @@
         "status": "live"
       },
       {
-        "label": "Playlist pitching",
+        "label": "Playlist pitching: 5 solid placements so far",
         "status": "wip"
       },
       {
         "label": "Release kit + catalog plan for the next Bridge and Bone songs",
+        "status": "wip"
+      },
+      {
+        "label": "Next single: art direction kickoff with John, Fri, Nov 20",
         "status": "next"
       }
     ]
@@ -179,7 +215,15 @@
     "YouTube channel created",
     "Your manuscript edits finished, ahead of schedule",
     "Nov 12 story recorded and approved",
-    "50 Substack writers to connect with, ready for your 15 minutes a day"
+    "50 Substack writers to connect with, ready for your 15 minutes a day",
+    "Book timeline agreed: launch Feb 23, 2027",
+    "My full read of the manuscript",
+    "\"There's the Phone\" published Nov 12",
+    "Little Hinges: 63 readers and a 77% open rate",
+    "Daily posts scheduled on Instagram, Facebook, and TikTok through Dec 9",
+    "LinkedIn connected for posting",
+    "Podcast pitch kit built from your Oprah pitch",
+    "Still We Rise playlist pitching: 5 solid placements so far"
   ],
   "links": [
     {
@@ -258,6 +302,6 @@
       ]
     }
   ],
-  "thisWeek": "Book: Little Hinges just passed 50 readers, and all 60 of your Founding 60 invites went out. Four short videos are live on Instagram, Facebook, and TikTok, and your list of 50 Substack writers is ready (top of this page). This is your week off, so rest. I'm reading the manuscript. Song: Still We Rise is out on every streaming app as of Friday, Nov 6.",
-  "next": "Book: \"There's the Phone\" goes out Thursday, Nov 12, and the Thanksgiving post on Nov 19. A quick YouTube step on Wednesday gets your short videos onto YouTube too. After your week off, we set a date to go over my manuscript notes and the Story Bible. Song: playlist pitching for Still We Rise continues, and the plan for the next Bridge and Bone songs."
+  "thisWeek": "Book: Little Hinges is at 63 readers with a 77% open rate, and your Thanksgiving post with the Table printable goes out Thursday, Nov 19. Daily posts are scheduled through Dec 9, with about 3,700 views so far, all organic. We agreed the timeline: launch is Monday, Feb 23, 2027. Song: Still We Rise playlist pitching has 5 solid placements so far.",
+  "next": "Book: our 90-minute interview Friday, Nov 20. Notes on 30 Substack writers come to you by Nov 22, and we go over the Story Bible on the Nov 23 call. Cover designer hired by Nov 24, copy editor booked by Nov 27. Song: art direction for the next single kicks off with John on Nov 20, and the plan for the next songs is underway."
 }

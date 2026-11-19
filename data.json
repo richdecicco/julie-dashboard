@@ -1,5 +1,5 @@
 {
-  "updated": "Nov 18, 2026",
+  "updated": "Nov 19, 2026",
   "intro": "Everything I'm building for you and Bridge and Bone, in one place, updated as things ship. Check back anytime.",
   "book": {
     "name": "Girl, Peach",
@@ -21,6 +21,11 @@
       {
         "label": "Thanksgiving story recorded (Nov 18)",
         "status": "live"
+      },
+      {
+        "label": "Nov 19 story \"Grammie's Pink Drink\": published, with the Thanksgiving Table printable for subscribers",
+        "status": "live",
+        "link": "https://littlehingesjulie.substack.com/p/grammies-pink-drink"
       },
       {
         "label": "Daily posts on Instagram, Facebook, and TikTok: scheduled through Dec 9, about 3,700 views so far (organic)",
@@ -62,10 +67,6 @@
       {
         "label": "Podcast pitch kit built from your Oprah pitch",
         "status": "live"
-      },
-      {
-        "label": "Nov 19 post + Thanksgiving Table printable for subscribers: draft with you",
-        "status": "wip"
       },
       {
         "label": "The Plan to Finish the Book: coming to you as a Google Doc",
@@ -223,7 +224,8 @@
     "Daily posts scheduled on Instagram, Facebook, and TikTok through Dec 9",
     "LinkedIn connected for posting",
     "Podcast pitch kit built from your Oprah pitch",
-    "Still We Rise playlist pitching: 5 solid placements so far"
+    "Still We Rise playlist pitching: 5 solid placements so far",
+    "\"Grammie's Pink Drink\" published Nov 19, with a Thanksgiving Table printable for subscribers"
   ],
   "links": [
     {
@@ -302,6 +304,6 @@
       ]
     }
   ],
-  "thisWeek": "Book: Little Hinges is at 63 readers with a 77% open rate, and your Thanksgiving post with the Table printable goes out Thursday, Nov 19. Daily posts are scheduled through Dec 9, with about 3,700 views so far, all organic. We agreed the timeline: launch is Monday, Feb 23, 2027. Song: Still We Rise playlist pitching has 5 solid placements so far.",
-  "next": "Book: our 90-minute interview Friday, Nov 20. Notes on 30 Substack writers come to you by Nov 22, and we go over the Story Bible on the Nov 23 call. Cover designer hired by Nov 24, copy editor booked by Nov 27. Song: art direction for the next single kicks off with John on Nov 20, and the plan for the next songs is underway."
+  "thisWeek": "Book: \"Grammie's Pink Drink\" went out Thursday morning, with the Thanksgiving Table printable as a gift for your subscribers. Little Hinges is at 63 readers with a 77% open rate, and daily posts are scheduled through Dec 9 with about 3,700 views so far (organic). The Plan to Finish the Book and the Story Bible are on my side right now, so nothing for you to do there yet. Song: Still We Rise playlist pitching has 5 solid placements so far, and the release kit for the next songs is underway.",
+  "next": "Book: our 90-minute interview is Friday, Nov 20, and all you need to bring is your memories. Notes on 30 Substack writers come to you by Nov 22, and we go over the Story Bible together on the Nov 23 call. Hiring the cover designer by Nov 24 and booking the copy editor by Nov 27 are both mine. Song: art direction for the next single kicks off with John on Friday, Nov 20."
 }

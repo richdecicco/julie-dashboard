@@ -69,6 +69,10 @@
         "status": "live"
       },
       {
+        "label": "Your Meta ad account: created",
+        "status": "live"
+      },
+      {
         "label": "The Plan to Finish the Book: coming to you as a Google Doc",
         "status": "wip"
       },
@@ -85,11 +89,11 @@
         "status": "wip"
       },
       {
-        "label": "Your Meta ad account: in setup",
+        "label": "Cover designer: searching now, hired by Nov 24",
         "status": "wip"
       },
       {
-        "label": "Cover designer: reaching out now, hired by Nov 24",
+        "label": "Proofreader for typos and awkward reads: searching now, booked by Nov 27",
         "status": "wip"
       },
       {
@@ -97,11 +101,7 @@
         "status": "next"
       },
       {
-        "label": "Small Meta ad test (paid): starts once your ad account is ready",
-        "status": "next"
-      },
-      {
-        "label": "Copy editor booked by Nov 27",
+        "label": "Small Meta ad test (paid): next, and running it is all on my side",
         "status": "next"
       },
       {
@@ -225,7 +225,8 @@
     "LinkedIn connected for posting",
     "Podcast pitch kit built from your Oprah pitch",
     "Still We Rise playlist pitching: 5 solid placements so far",
-    "\"Grammie's Pink Drink\" published Nov 19, with a Thanksgiving Table printable for subscribers"
+    "\"Grammie's Pink Drink\" published Nov 19, with a Thanksgiving Table printable for subscribers",
+    "Your Meta ad account created"
   ],
   "links": [
     {
@@ -304,6 +305,6 @@
       ]
     }
   ],
-  "thisWeek": "Book: \"Grammie's Pink Drink\" went out Thursday morning, with the Thanksgiving Table printable as a gift for your subscribers. Little Hinges is at 63 readers with a 77% open rate, and daily posts are scheduled through Dec 9 with about 3,700 views so far (organic). The Plan to Finish the Book and the Story Bible are on my side right now, so nothing for you to do there yet. Song: Still We Rise playlist pitching has 5 solid placements so far, and the release kit for the next songs is underway.",
-  "next": "Book: our 90-minute interview is Friday, Nov 20, and all you need to bring is your memories. Notes on 30 Substack writers come to you by Nov 22, and we go over the Story Bible together on the Nov 23 call. Hiring the cover designer by Nov 24 and booking the copy editor by Nov 27 are both mine. Song: art direction for the next single kicks off with John on Friday, Nov 20."
+  "thisWeek": "Book: \"Grammie's Pink Drink\" went out Thursday morning, with the Thanksgiving Table printable as a gift for your subscribers. Little Hinges is at 63 readers with a 77% open rate, and daily posts are scheduled through Dec 9 with about 3,700 views so far (organic). Your Meta ad account is set up, and the small paid test is next, with all the running of it on my side. Song: Still We Rise playlist pitching has 5 solid placements so far, and the release kit for the next songs is underway.",
+  "next": "Book: our 90-minute interview is Friday, Nov 20, and all you need to bring is your memories. Notes on 30 Substack writers come to you by Nov 22, and we go over the Story Bible together on the Nov 23 call. I'm searching for the cover designer (hired by Nov 24) and a proofreader (booked by Nov 27), so nothing for you to do there. Song: art direction for the next single kicks off with John on Friday, Nov 20."
 }
